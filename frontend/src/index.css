@@ -1,0 +1,24 @@
+/* -------------------------------------------------
+   Global reset + Tata corporate palette
+   ------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Corporate colours */
+:root {
+  --tata-blue: #0a0f47;
+  --tata-amber: #ffb300;
+  --tata-gray: #f5f5f5;
+}
